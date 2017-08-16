@@ -1,2 +1,0 @@
-D:\Mywork\CurrentProject\XamarinProject_GoogleMap\XamarinFormsGoogleMap\XamarinFormsGoogleMap\XamarinFormsGoogleMap.UWP\XamarinFormsGoogleMap.UWP.csproj;x86
-D:\Mywork\CurrentProject\XamarinProject_GoogleMap\XamarinFormsGoogleMap\XamarinFormsGoogleMap\XamarinFormsGoogleMap\XamarinFormsGoogleMap.csproj;neutral
