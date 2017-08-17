@@ -1,2 +1,0 @@
-D:\AwesomeMaps\AwesomeMaps\AwesomeMaps.UWP\AwesomeMaps.UWP.csproj;x86
-D:\AwesomeMaps\AwesomeMaps\AwesomeMaps\AwesomeMaps.csproj;neutral
