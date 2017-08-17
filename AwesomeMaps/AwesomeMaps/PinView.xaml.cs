@@ -1,77 +1,65 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace AwesomeMaps
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PinView : StackLayout, INotifyPropertyChanged
+    public partial class PinView : StackLayout
     {
-        ImageSource imageSource = new UriImageSource
-        {
-            Uri = new Uri("https://xamarin.com/content/images/pages/forms/example-app.png"),
-            CachingEnabled = true,
-            CacheValidity = new TimeSpan(5, 0, 0, 0)
-        };
-        String message = "I am running";
+        StackLayout mainContent;
 
-        public event PropertyChangedEventHandler PropertyChanged;
         public PinView() 
         {
             InitializeComponent();
-
-            BindingContext = this;
             
         }
-        public PinView(String imageSrc = "https://xamarin.com/content/images/pages/forms/example-app.png", String msg = "I am laughing")
+        public PinView(String imageSrc, String msg)
         {
             InitializeComponent();
 
-            BindingContext = this;
+            InitializeControlAsync(imageSrc, msg);
+        }
+        public void InitializeControlAsync(String imgUrl, String msg)
+        {
+            mainContent = new StackLayout();
+            mainContent.WidthRequest = 150;
+            mainContent.HeightRequest = 50;
+            mainContent.Orientation = StackOrientation.Horizontal;
 
-            imgSource = new UriImageSource
+            var avatarImage = new ImageCircle { Aspect = Aspect.AspectFit };
+
+            avatarImage.WidthRequest = 50;
+            avatarImage.HeightRequest = 50;
+
+            //avatarImage.Source = ImageSource.FromUri(new Uri(imgUrl));
+            avatarImage.Source = new UriImageSource
             {
-                Uri = new Uri("https://xamarin.com/content/images/pages/forms/example-app.png"),
+                Uri = new Uri(imgUrl),
                 CachingEnabled = true,
                 CacheValidity = new TimeSpan(5, 0, 0, 0)
             };
-            msgSource = msg;
-        }
+            while (avatarImage.IsLoading){
+                
+            }
 
-        public ImageSource imgSource
-        {
-            get
-            {
-                return imageSource;
-            }
-            set
-            {
-                imageSource = value;
-                if (PropertyChanged != null)
-                {
-                    PropertyChanged(this,
-                        new PropertyChangedEventArgs("imgSource"));
-                }
-            }
-        }
+            Label message = new Label();
+            message.WidthRequest = 100;
+            message.HeightRequest = 40;
+            message.Margin = new Thickness(0, 10, 0, 0);
+            message.Text = msg;
 
-        public String msgSource
-        {
-            get
-            {
-                return message;
-            }
-            set
-            {
-                message = value;
-                if (PropertyChanged != null)
-                {
-                    PropertyChanged(this,
-                        new PropertyChangedEventArgs("msgSource"));
-                }
-            }
+            mainContent.Children.Add(avatarImage);
+            mainContent.Children.Add(message);
+
+            Debug.WriteLine("Image Source of Avatar");
+            //Debug.WriteLine(avatarImage.);
+
+            this.Children.Add(mainContent);
         }
     }
 }

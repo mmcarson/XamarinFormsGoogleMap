@@ -16,8 +16,9 @@ namespace AwesomeMaps
     public partial class MainPage : ContentPage
     {
         DataModel data = new DataModel();
+        String img_url = "https://thumbs.dreamstime.com/z/female-avatar-icon-young-attractive-woman-smiling-image-to-create-to-represent-person-screen-online-games-chat-92495971.jpg";
 
-		public MainPage()
+        public MainPage()
 		{
 			InitializeComponent();
             
@@ -44,7 +45,7 @@ namespace AwesomeMaps
 
 			if (isLat && isLong)
 			{
-                mapView.AddCustomPin(latitude, longtitude, "default_image.png", data.message);
+                mapView.AddCustomPin(latitude, longtitude, img_url, data.message);
 			}
         }
 		protected override async void OnAppearing()
