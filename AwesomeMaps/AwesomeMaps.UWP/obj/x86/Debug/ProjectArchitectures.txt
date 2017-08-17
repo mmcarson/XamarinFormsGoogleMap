@@ -1,0 +1,2 @@
+C:\Users\KobayashiTatsuo\Downloads\AwesomeMaps\AwesomeMaps\AwesomeMaps.UWP\AwesomeMaps.UWP.csproj;x86
+C:\Users\KobayashiTatsuo\Downloads\AwesomeMaps\AwesomeMaps\AwesomeMaps\AwesomeMaps.csproj;neutral

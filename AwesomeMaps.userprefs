@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{089D43C9-DC5B-44B1-8A42-B5D1E14D7254}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AwesomeMaps/AwesomeMaps/MainPage.xaml">
+    <Files>
+      <File FileName="AwesomeMaps/AwesomeMaps/MainPage.xaml" Line="38" Column="16" />
+      <File FileName="AwesomeMaps/AwesomeMaps/CustomGoogleMap/PinView.xaml" Line="13" Column="26" />
+      <File FileName="AwesomeMaps/AwesomeMaps/CustomGoogleMap/PinView.xaml.cs" Line="22" Column="24" />
+      <File FileName="AwesomeMaps/AwesomeMaps/CustomGoogleMap/MapView.xaml" Line="5" Column="22" />
+      <File FileName="AwesomeMaps/AwesomeMaps/CustomGoogleMap/MapView.xaml.cs" Line="62" Column="63" />
+      <File FileName="AwesomeMaps/AwesomeMaps/DataModel.cs" Line="41" Column="7" />
+      <File FileName="AwesomeMaps/AwesomeMaps/MainPage.xaml.cs" Line="43" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AwesomeMaps.Android PreferredExecutionTarget="Android.12160cb204440401" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AwesomeMaps.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ecf84f0b205eba419160d70046e424b3b006daae" />
+</Properties>
