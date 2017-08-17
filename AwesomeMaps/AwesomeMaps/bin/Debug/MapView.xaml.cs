@@ -67,7 +67,7 @@ namespace AwesomeMaps
                 Label = "Custom Pin",
                 Address = "New position",
                 Position = new Position(latitude, longtitude),
-                Icon = BitmapDescriptorFactory.FromView(d)
+                Icon = BitmapDescriptorFactory.FromView(new PinView(imageSrc, msg))
 			};
 
             mapContent.Pins.Add(pin);

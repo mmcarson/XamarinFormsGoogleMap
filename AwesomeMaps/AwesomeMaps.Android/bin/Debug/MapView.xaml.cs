@@ -56,13 +56,18 @@ namespace AwesomeMaps
         }
 
         public void AddCustomPin(double latitude, double longtitude, string msg, string imageSrc){
+            Label d = new Label();
+            d.WidthRequest = 100;
+            d.HeightRequest = 50;
+            d.Text = "Format D";
+
             var pin = new Pin()
             {
                 Type = PinType.Place,
                 Label = "Custom Pin",
                 Address = "New position",
                 Position = new Position(latitude, longtitude),
-                Icon = BitmapDescriptorFactory.FromView(new PinView(imageSrc,msg))
+                Icon = BitmapDescriptorFactory.FromView(new PinView(imageSrc, msg))
 			};
 
             mapContent.Pins.Add(pin);

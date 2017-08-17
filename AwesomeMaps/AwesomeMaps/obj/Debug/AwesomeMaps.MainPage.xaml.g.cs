@@ -11,8 +11,7 @@
 namespace AwesomeMaps {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps\\MainPage.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -58,7 +58,7 @@ namespace AwesomeMaps
             {
                 Debug.WriteLine("No Permission");
             }
-            mapView.MoveToCurrentPosition();
+            ///mapView.MoveToCurrentPosition();
 		}
 	}
 }

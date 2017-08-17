@@ -9,7 +9,7 @@ namespace AwesomeMaps
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PinView : StackLayout, INotifyPropertyChanged
     {
-        String imageSource = "default_image.png";
+        String imageSource = "https://xamarin.com/content/images/pages/forms/example-app.png";
         String message = "I am running";
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -18,18 +18,16 @@ namespace AwesomeMaps
             InitializeComponent();
 
             BindingContext = this;
-
-            imageSource = "default_image.png";
-            message = "I am running";
+            
         }
-        public PinView(String imageSrc = "default_image.png", String msg = "I am laughing")
+        public PinView(String imageSrc = "https://xamarin.com/content/images/pages/forms/example-app.png", String msg = "I am laughing")
         {
             InitializeComponent();
 
-            imageSource = imageSrc;
-            message = msg;
-
             BindingContext = this;
+
+            imgSource = imageSrc;
+            msgSource = msg;
         }
 
         public String imgSource

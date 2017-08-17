@@ -15,7 +15,7 @@
         HorizontalOptions="Fill"
           >
         <local:ImageCircle
-            Source="{Binding imgSource}"
+            Source="https://xamarin.com/content/images/pages/forms/example-app.png"
             WidthRequest="50"
             HeightRequest="50">
 
@@ -24,7 +24,7 @@
             Text="{Binding msgSource}"
             Margin="0,10,0,0"
             WidthRequest="100"
-            HeightRequest="50"
+            HeightRequest="40"
             >
             
         </Label>
