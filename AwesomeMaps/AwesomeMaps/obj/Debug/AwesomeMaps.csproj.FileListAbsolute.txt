@@ -58,3 +58,4 @@ D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps\obj\Debug\AwesomeMaps.MapView.x
 D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps\obj\Debug\AwesomeMaps.PinView.xaml.g.cs
 D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps\obj\Debug\AwesomeMaps.dll
 D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps\obj\Debug\AwesomeMaps.pdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps\obj\Debug\AwesomeMaps.csprojResolveAssemblyReference.cache

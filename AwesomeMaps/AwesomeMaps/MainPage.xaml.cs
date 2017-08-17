@@ -44,7 +44,7 @@ namespace AwesomeMaps
 
 			if (isLat && isLong)
 			{
-                mapView.AddCustomPin(latitude, longtitude, data.message, "default_image.png");
+                mapView.AddCustomPin(latitude, longtitude, "default_image.png", data.message);
 			}
         }
 		protected override async void OnAppearing()

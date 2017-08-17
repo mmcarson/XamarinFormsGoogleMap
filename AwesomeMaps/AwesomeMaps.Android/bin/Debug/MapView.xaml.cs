@@ -55,7 +55,8 @@ namespace AwesomeMaps
             mapContent.MoveToRegion(MapSpan.FromCenterAndRadius(pin.Position, Distance.FromMeters(1000)), true);
         }
 
-        public void AddCustomPin(double latitude, double longtitude, string msg, string imageSrc){
+        public void AddCustomPin(double latitude, double longtitude, string imageSrc, string msg)
+        {
             Label d = new Label();
             d.WidthRequest = 100;
             d.HeightRequest = 50;

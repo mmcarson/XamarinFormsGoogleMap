@@ -9,7 +9,12 @@ namespace AwesomeMaps
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PinView : StackLayout, INotifyPropertyChanged
     {
-        String imageSource = "https://xamarin.com/content/images/pages/forms/example-app.png";
+        ImageSource imageSource = new UriImageSource
+        {
+            Uri = new Uri("https://xamarin.com/content/images/pages/forms/example-app.png"),
+            CachingEnabled = true,
+            CacheValidity = new TimeSpan(5, 0, 0, 0)
+        };
         String message = "I am running";
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -26,11 +31,16 @@ namespace AwesomeMaps
 
             BindingContext = this;
 
-            imgSource = imageSrc;
+            imgSource = new UriImageSource
+            {
+                Uri = new Uri("https://xamarin.com/content/images/pages/forms/example-app.png"),
+                CachingEnabled = true,
+                CacheValidity = new TimeSpan(5, 0, 0, 0)
+            };
             msgSource = msg;
         }
 
-        public String imgSource
+        public ImageSource imgSource
         {
             get
             {

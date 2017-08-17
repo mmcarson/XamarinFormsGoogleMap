@@ -194,3 +194,13 @@ D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\res\layout\to
 D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\res\values\styles.xml
 D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\R.cs.flag
 D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\uploadflags.txt
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\bin\Debug\AwesomeMaps.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\bin\Debug\AwesomeMaps.Android.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\AwesomeMaps.Android.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\AwesomeMaps.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+D:\XamarinFormsGoogleMap\AwesomeMaps\AwesomeMaps.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
