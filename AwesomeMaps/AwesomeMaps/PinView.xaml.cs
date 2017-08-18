@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XLabs.Forms.Controls;
 
 namespace AwesomeMaps
 {
@@ -30,14 +31,15 @@ namespace AwesomeMaps
             mainContent.WidthRequest = 150;
             mainContent.HeightRequest = 50;
             mainContent.Orientation = StackOrientation.Horizontal;
-
-            var avatarImage = new ImageCircle { Aspect = Aspect.AspectFit };
+            
+            var avatarImage = new CircleImage { Aspect = Aspect.AspectFit };
 
             avatarImage.WidthRequest = 50;
             avatarImage.HeightRequest = 50;
 
-            //avatarImage.Source = ImageSource.FromUri(new Uri(imgUrl));
-            avatarImage.Source = new UriImageSource
+            avatarImage.Source = ImageSource.FromUri(new Uri(imgUrl));
+
+            /*avatarImage.Source = new UriImageSource
             {
                 Uri = new Uri(imgUrl),
                 CachingEnabled = true,
@@ -45,7 +47,7 @@ namespace AwesomeMaps
             };
             while (avatarImage.IsLoading){
                 
-            }
+            }*/
 
             Label message = new Label();
             message.WidthRequest = 100;

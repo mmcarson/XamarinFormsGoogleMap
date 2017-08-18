@@ -43,22 +43,23 @@ namespace AwesomeMaps
 			bool isLat = Double.TryParse(data.lat, out latitude);
 			bool isLong = Double.TryParse(data.longt, out longtitude);
 
-			if (isLat && isLong)
+            if (isLat && isLong)
 			{
-                mapView.AddCustomPin(latitude, longtitude, img_url, data.message);
+                mapView.AddCustomPinAsync(latitude, longtitude, img_url, data.message);
 			}
         }
 		protected override async void OnAppearing()
 		{
 			base.OnAppearing();
 			///
+            /*
 			await Task.Delay(1000);
 
             var hasPermission = await Utils.CheckPermissions(Permission.Location);
             if (!hasPermission)
             {
                 Debug.WriteLine("No Permission");
-            }
+            }*/
             ///mapView.MoveToCurrentPosition();
 		}
 	}

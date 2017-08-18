@@ -55,18 +55,28 @@ namespace AwesomeMaps
             mapContent.MoveToRegion(MapSpan.FromCenterAndRadius(pin.Position, Distance.FromMeters(1000)), true);
         }
 
-        public void AddCustomPin(double latitude, double longtitude, string imageSrc, string msg)
+        private static Random random = new Random();
+        public static String RandomString(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+
+        public void AddCustomPinAsync(double latitude, double longtitude, string imageSrc, string msg)
         {
             Position temp = new Position(latitude, longtitude);
-			mapContent.MoveToRegion(MapSpan.FromCenterAndRadius(temp, Distance.FromMeters(1000)), false);
-			
+			mapContent.MoveToRegion(MapSpan.FromCenterAndRadius(temp, Distance.FromMeters(1000)), true);
+
+            PinView newPinView = new PinView(imageSrc, msg);
+
             Pin pin = new Pin()
 			{
 				Type = PinType.Place,
 				Label = "Custom Pin",
-				Address = "New position",
+				Address = RandomString(10),
 				Position = new Position(latitude, longtitude),
-				Icon = BitmapDescriptorFactory.FromView(new PinView(imageSrc, msg))
+				Icon = BitmapDescriptorFactory.FromView(newPinView)
 			};
 
             mapContent.Pins.Add(pin);

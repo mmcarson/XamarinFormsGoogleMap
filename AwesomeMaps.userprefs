@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{B7785BA7-AC85-4A16-A649-2E2FD295C635}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AwesomeMaps/AwesomeMaps/MapView.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AwesomeMaps/AwesomeMaps/MainPage.xaml.cs">
     <Files>
-      <File FileName="AwesomeMaps/AwesomeMaps/MainPage.xaml" Line="9" Column="28" />
+      <File FileName="AwesomeMaps/AwesomeMaps/MainPage.xaml" Line="15" Column="34" />
       <File FileName="AwesomeMaps/AwesomeMaps/DataModel.cs" Line="41" Column="7" />
-      <File FileName="AwesomeMaps/AwesomeMaps/MainPage.xaml.cs" Line="21" Column="26" />
-      <File FileName="AwesomeMaps/AwesomeMaps/MapView.xaml" Line="14" Column="23" />
-      <File FileName="AwesomeMaps/AwesomeMaps/PinView.xaml.cs" Line="49" Column="13" />
-      <File FileName="AwesomeMaps/AwesomeMaps/MapView.xaml.cs" Line="60" Column="22" />
-      <File FileName="AwesomeMaps/AwesomeMaps/PinView.xaml" Line="10" Column="15" />
+      <File FileName="AwesomeMaps/AwesomeMaps/MainPage.xaml.cs" Line="14" Column="2" />
+      <File FileName="AwesomeMaps/AwesomeMaps/MapView.xaml" Line="23" Column="15" />
+      <File FileName="AwesomeMaps/AwesomeMaps/PinView.xaml.cs" Line="39" Column="13" />
+      <File FileName="AwesomeMaps/AwesomeMaps/MapView.xaml.cs" Line="58" Column="25" />
+      <File FileName="AwesomeMaps/AwesomeMaps/PinView.xaml" Line="11" Column="1" />
       <File FileName="AwesomeMaps/AwesomeMaps.iOS/Info.plist" />
       <File FileName="AwesomeMaps/AwesomeMaps.iOS/Entitlements.plist" />
+      <File FileName="AwesomeMaps/AwesomeMaps.iOS/CircleImageRenderer.cs" Line="12" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AwesomeMaps.Android PreferredExecutionTarget="Android.12160cb204440401" />
+  <MonoDevelop.Ide.ItemProperties.AwesomeMaps.Android PreferredExecutionTarget="Android.Nexus_One_API_23" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AwesomeMaps.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ecf84f0b205eba419160d70046e424b3b006daae" />
+  <MonoDevelop.Ide.ItemProperties.AwesomeMaps.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.85C1813B-CAAB-43C5-AF5D-1F4E43F960DF" />
 </Properties>
