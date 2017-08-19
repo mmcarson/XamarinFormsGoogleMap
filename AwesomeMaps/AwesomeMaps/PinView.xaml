@@ -7,4 +7,25 @@
     WidthRequest="150" 
     HeightRequest="50"
     >
+    <StackLayout
+        VerticalOptions="Fill"
+        HorizontalOptions="Fill"
+        Orientation="Horizontal"
+        >
+        <Image
+            WidthRequest="50"
+            HeightRequest="50"
+            Source="{Binding iImage}"
+            >
+            
+        </Image>
+        <Label
+            WidthRequest="100"
+            HeightRequest="40"
+            Margin="0,10,0,0"
+            Text="{Binding iMessage}"
+            >
+            
+        </Label>
+    </StackLayout>   
 </StackLayout>

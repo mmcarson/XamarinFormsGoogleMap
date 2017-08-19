@@ -12,7 +12,7 @@ namespace AwesomeMaps
         public App()
         {
             InitializeComponent();
-
+            
             MainPage = new AwesomeMaps.MainPage();
         }
 

@@ -322,17 +322,6 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        }
-      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2214,17 +2203,6 @@
           }
         }
       },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Forms/2.3.4.267": {
         "type": "package",
         "compile": {
@@ -2528,17 +2506,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -4557,17 +4524,6 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Forms/2.3.4.267": {
         "type": "package",
         "compile": {
@@ -4872,17 +4828,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -6936,17 +6881,6 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Forms/2.3.4.267": {
         "type": "package",
         "compile": {
@@ -7253,17 +7187,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -9288,17 +9211,6 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Forms/2.3.4.267": {
         "type": "package",
         "compile": {
@@ -9606,17 +9518,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -11676,17 +11577,6 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Forms/2.3.4.267": {
         "type": "package",
         "compile": {
@@ -11993,17 +11883,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -14028,17 +13907,6 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Forms/2.3.4.267": {
         "type": "package",
         "compile": {
@@ -14346,17 +14214,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "Plugin.Permissions/2.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Permissions.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Permissions.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -16414,17 +16271,6 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Xam.Plugin.Geolocator/4.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Geolocator.dll": {}
         }
       },
       "Xamarin.Forms/2.3.4.267": {
@@ -18857,41 +18703,6 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
-      ]
-    },
-    "Plugin.Permissions/2.0.1": {
-      "sha512": "R+V3nsj9HB23y8QiopTMp9nATp3jDTbbLSY9Zz/ofizn3JQtJxxrRCBBMnQohsNcqpAvGdZ+DcGBTmU32wUJ2Q==",
-      "type": "package",
-      "path": "plugin.permissions/2.0.1",
-      "files": [
-        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.Permissions.XML",
-        "lib/MonoAndroid10/Plugin.Permissions.dll",
-        "lib/MonoAndroid10/Plugin.Permissions.pdb",
-        "lib/UAP10/Plugin.Permissions.Abstractions.dll",
-        "lib/UAP10/Plugin.Permissions.Abstractions.pdb",
-        "lib/UAP10/Plugin.Permissions.Abstractions.xml",
-        "lib/UAP10/Plugin.Permissions.XML",
-        "lib/UAP10/Plugin.Permissions.dll",
-        "lib/UAP10/Plugin.Permissions.pdb",
-        "lib/UAP10/Plugin.Permissions.pri",
-        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.Permissions.XML",
-        "lib/Xamarin.iOS10/Plugin.Permissions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.Permissions.Abstractions.xml",
-        "lib/netstandard1.0/Plugin.Permissions.deps.json",
-        "lib/netstandard1.0/Plugin.Permissions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.pdb",
-        "lib/netstandard1.0/Plugin.Permissions.xml",
-        "plugin.permissions.2.0.1.nupkg.sha512",
-        "plugin.permissions.nuspec",
-        "readme.txt"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -24758,47 +24569,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Xam.Plugin.Geolocator/4.0.1": {
-      "sha512": "K03RbOsc1nrbOpD4zd5/hHVyL4kDW1K2IHcRzS7V4DHIgVpopoSoqAN5zI/x0Gu0HMwwJZzn8D6iCRQoghfM0Q==",
-      "type": "package",
-      "path": "xam.plugin.geolocator/4.0.1",
-      "files": [
-        "lib/MonoAndroid10/Plugin.Geolocator.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.Geolocator.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.Geolocator.dll",
-        "lib/MonoAndroid10/Plugin.Geolocator.pdb",
-        "lib/MonoAndroid10/Plugin.Geolocator.xml",
-        "lib/UAP10/Plugin.Geolocator.Abstractions.dll",
-        "lib/UAP10/Plugin.Geolocator.Abstractions.pdb",
-        "lib/UAP10/Plugin.Geolocator.XML",
-        "lib/UAP10/Plugin.Geolocator.dll",
-        "lib/UAP10/Plugin.Geolocator.pdb",
-        "lib/UAP10/Plugin.Geolocator.pri",
-        "lib/Xamarin.Mac20/Plugin.Geolocator.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.Geolocator.Abstractions.pdb",
-        "lib/Xamarin.Mac20/Plugin.Geolocator.dll",
-        "lib/Xamarin.Mac20/Plugin.Geolocator.pdb",
-        "lib/Xamarin.Mac20/Plugin.Geolocator.xml",
-        "lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.Geolocator.dll",
-        "lib/Xamarin.iOS10/Plugin.Geolocator.pdb",
-        "lib/Xamarin.iOS10/Plugin.Geolocator.xml",
-        "lib/XamarinTVOS/Plugin.Geolocator.Abstractions.dll",
-        "lib/XamarinTVOS/Plugin.Geolocator.Abstractions.pdb",
-        "lib/XamarinTVOS/Plugin.Geolocator.dll",
-        "lib/XamarinTVOS/Plugin.Geolocator.pdb",
-        "lib/netstandard1.0/Plugin.Geolocator.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.Geolocator.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.Geolocator.deps.json",
-        "lib/netstandard1.0/Plugin.Geolocator.dll",
-        "lib/netstandard1.0/Plugin.Geolocator.pdb",
-        "lib/netstandard1.0/Plugin.Geolocator.xml",
-        "readme.txt",
-        "xam.plugin.geolocator.4.0.1.nupkg.sha512",
-        "xam.plugin.geolocator.nuspec"
-      ]
-    },
     "Xamarin.Forms/2.3.4.267": {
       "sha512": "omf8FJHxEogCP80W1zfhAwMd4P81TasKOOdVXDJYH4cQ/huhKY5N1YioQ75BP4E75y6VE3aJtAglfeImIQoB5A==",
       "type": "package",
@@ -24982,8 +24752,6 @@
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.4.0",
-      "Plugin.Permissions >= 2.0.1",
-      "Xam.Plugin.Geolocator >= 4.0.1",
       "Xamarin.Forms >= 2.3.4.267",
       "Xamarin.Forms.GoogleMaps >= 2.1.0"
     ],
@@ -24994,12 +24762,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.UWP\\AwesomeMaps.UWP.csproj",
+      "projectUniqueName": "D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps.UWP\\AwesomeMaps.UWP.csproj",
       "projectName": "AwesomeMaps.UWP",
-      "projectPath": "C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.UWP\\AwesomeMaps.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.UWP\\project.json",
+      "projectPath": "D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps.UWP\\AwesomeMaps.UWP.csproj",
+      "projectJsonPath": "D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps.UWP\\project.json",
       "packagesPath": "C:\\Users\\KobayashiTatsuo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.UWP\\obj\\",
+      "outputPath": "D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\KobayashiTatsuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -25012,8 +24780,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.csproj": {
-              "projectPath": "C:\\Users\\KobayashiTatsuo\\Downloads\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.csproj"
+            "D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.csproj": {
+              "projectPath": "D:\\XamarinFormsGoogleMap\\AwesomeMaps\\AwesomeMaps\\AwesomeMaps.csproj"
             }
           }
         }
@@ -25021,13 +24789,8 @@
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0",
-      "Xam.Plugin.Geolocator": "4.0.1",
       "Xamarin.Forms": "2.3.4.267",
-      "Xamarin.Forms.GoogleMaps": "2.1.0",
-      "Plugin.Permissions": {
-        "target": "Package",
-        "version": "[2.0.1, )"
-      }
+      "Xamarin.Forms.GoogleMaps": "2.1.0"
     },
     "frameworks": {
       "uap10.0.10240": {}

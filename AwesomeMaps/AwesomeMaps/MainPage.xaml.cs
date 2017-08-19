@@ -16,7 +16,7 @@ namespace AwesomeMaps
     public partial class MainPage : ContentPage
     {
         DataModel data = new DataModel();
-        String img_url = "https://thumbs.dreamstime.com/z/female-avatar-icon-young-attractive-woman-smiling-image-to-create-to-represent-person-screen-online-games-chat-92495971.jpg";
+        String img_url = "https://secure.gravatar.com/avatar/d13a1c782170b764688e550b08de8ca7/?default=https%3A%2F%2Fvanillicon.com%2Fd13a1c782170b764688e550b08de8ca7_200.png&rating=g&size=130";
 
         public MainPage()
 		{
@@ -42,13 +42,13 @@ namespace AwesomeMaps
 			double latitude = 0, longtitude = 0;
 			bool isLat = Double.TryParse(data.lat, out latitude);
 			bool isLong = Double.TryParse(data.longt, out longtitude);
-
+            
             if (isLat && isLong)
 			{
                 mapView.AddCustomPinAsync(latitude, longtitude, img_url, data.message);
 			}
         }
-		protected override async void OnAppearing()
+		protected override void OnAppearing()
 		{
 			base.OnAppearing();
 			///

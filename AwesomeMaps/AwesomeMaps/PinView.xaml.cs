@@ -5,14 +5,15 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using XLabs.Forms.Controls;
 
 namespace AwesomeMaps
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PinView : StackLayout
+    public partial class PinView : StackLayout, INotifyPropertyChanged
     {
-        StackLayout mainContent;
+        public event PropertyChangedEventHandler PropertyChanged;
+        String imageUrl = "http://www.mobtowers.com/wp-content/uploads/2014/06/style_imagery_integration_scale1-576x1024.png";
+        String Message = "First";
 
         public PinView() 
         {
@@ -23,45 +24,37 @@ namespace AwesomeMaps
         {
             InitializeComponent();
 
-            InitializeControlAsync(imageSrc, msg);
+            imageUrl = imageSrc;
+            Message = msg;
+
+            BindingContext = this;
         }
-        public void InitializeControlAsync(String imgUrl, String msg)
+        public String iImage
         {
-            mainContent = new StackLayout();
-            mainContent.WidthRequest = 150;
-            mainContent.HeightRequest = 50;
-            mainContent.Orientation = StackOrientation.Horizontal;
-            
-            var avatarImage = new CircleImage { Aspect = Aspect.AspectFit };
-
-            avatarImage.WidthRequest = 50;
-            avatarImage.HeightRequest = 50;
-
-            avatarImage.Source = ImageSource.FromUri(new Uri(imgUrl));
-
-            /*avatarImage.Source = new UriImageSource
+            set
             {
-                Uri = new Uri(imgUrl),
-                CachingEnabled = true,
-                CacheValidity = new TimeSpan(5, 0, 0, 0)
-            };
-            while (avatarImage.IsLoading){
-                
-            }*/
+                imageUrl = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this,new PropertyChangedEventArgs("iImage"));
+            }
+            get
+            {
+                return imageUrl;
+            }
+        }
 
-            Label message = new Label();
-            message.WidthRequest = 100;
-            message.HeightRequest = 40;
-            message.Margin = new Thickness(0, 10, 0, 0);
-            message.Text = msg;
-
-            mainContent.Children.Add(avatarImage);
-            mainContent.Children.Add(message);
-
-            Debug.WriteLine("Image Source of Avatar");
-            //Debug.WriteLine(avatarImage.);
-
-            this.Children.Add(mainContent);
+        public String iMessage
+        {
+            set
+            {
+                Message = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("iMessage"));
+            }
+            get
+            {
+                return Message;
+            }
         }
     }
 }

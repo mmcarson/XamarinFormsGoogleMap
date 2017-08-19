@@ -18,6 +18,7 @@
                 >
 
             </local:MapView>
+            
             <Entry
                 Placeholder="Message..."
                 Text="{Binding message}"

@@ -3,9 +3,10 @@ using AwesomeMaps.CustomGoogleMap;
 using AwesomeMaps.UWP;
 using System;
 using Windows.UI.Xaml.Media;
+using Xamarin.Forms;
 using Xamarin.Forms.Platform.UWP;
 
-[assembly: ExportRenderer(typeof(ImageCircle), typeof(ImageCircleRenderer))]
+[assembly: ExportRenderer(typeof(Image), typeof(ImageCircleRenderer))]
 namespace AwesomeMaps.UWP
 {
     public class ImageCircleRenderer : ImageRenderer
